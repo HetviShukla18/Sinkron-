@@ -15,11 +15,18 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 116px; scrollbar-gutter: stable; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 116px;
+  scrollbar-gutter: stable;
+  /* Keep the page steady when a gesture reaches either scroll boundary. */
+  overscroll-behavior-y: none;
+}
 body {
   margin: 0;
   width: 100%;
   min-width: 0;
+  overscroll-behavior-y: none;
   color: var(--navy);
   background: #fff;
   font-family: var(--font-inter), Arial, sans-serif;
