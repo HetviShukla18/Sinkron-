@@ -1,0 +1,571 @@
+{
+  "/assets/optimized/home-hero.webp": {
+    "width": 1920,
+    "height": 640,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-hero-320.e266258e7471.avif",
+        "webp": "/assets/optimized/static/home-hero-320.42645c98cce6.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-hero-480.8aa18b84961f.avif",
+        "webp": "/assets/optimized/static/home-hero-480.c3e1d6a397aa.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-hero-640.7ff31f64f962.avif",
+        "webp": "/assets/optimized/static/home-hero-640.5b03cffc8e8c.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-hero-750.fd5688c2b2ba.avif",
+        "webp": "/assets/optimized/static/home-hero-750.c630ee850dd8.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-hero-828.33e13d43b7b6.avif",
+        "webp": "/assets/optimized/static/home-hero-828.fb7ed83f502f.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-hero-960.8a709110393d.avif",
+        "webp": "/assets/optimized/static/home-hero-960.818a091e2599.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-hero-1200.9fbbe3583fd3.avif",
+        "webp": "/assets/optimized/static/home-hero-1200.7723a0dbe903.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/assets/optimized/static/home-hero-1440.7105efa0c922.avif",
+        "webp": "/assets/optimized/static/home-hero-1440.a2ef9884a714.webp"
+      },
+      {
+        "width": 1920,
+        "avif": "/assets/optimized/static/home-hero-1920.99770eb70009.avif",
+        "webp": "/assets/optimized/static/home-hero-1920.6dd36ce981e3.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-about.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-about-320.7d333981b6dc.avif",
+        "webp": "/assets/optimized/static/home-about-320.21ec8c2f7d76.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-about-480.c868ccea4fb7.avif",
+        "webp": "/assets/optimized/static/home-about-480.103fa86d30d6.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-about-640.9f6f759ba168.avif",
+        "webp": "/assets/optimized/static/home-about-640.8e77a31f7db1.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-about-750.5e3519a507e4.avif",
+        "webp": "/assets/optimized/static/home-about-750.baa82b2805d4.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-about-828.baab7e546969.avif",
+        "webp": "/assets/optimized/static/home-about-828.6e779fcb3141.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-about-960.7746e7864784.avif",
+        "webp": "/assets/optimized/static/home-about-960.0db214075cbf.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-about-1200.21c9d7a32d1f.avif",
+        "webp": "/assets/optimized/static/home-about-1200.4f16d9ca710c.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-infrastructure.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-infrastructure-320.7bf0a7233cc1.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-320.6641651e8449.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-infrastructure-480.03a7de95ab40.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-480.c1e3f6ec9dbe.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-infrastructure-640.41a88ac71c19.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-640.f47a303580f3.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-infrastructure-750.4d7254e64716.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-750.06645a9e3c2f.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-infrastructure-828.ef9cd017b6cf.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-828.cbfc432d7a4d.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-infrastructure-960.6144970ba729.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-960.a2218b31f225.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-infrastructure-1200.0823c2637c06.avif",
+        "webp": "/assets/optimized/static/home-infrastructure-1200.9cf513a76ab5.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-residential.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-residential-320.f094477e6e4b.avif",
+        "webp": "/assets/optimized/static/home-residential-320.e958f1acd2b1.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-residential-480.ce8b210bb34a.avif",
+        "webp": "/assets/optimized/static/home-residential-480.bbbb9f31b4f6.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-residential-640.f504bc4c312c.avif",
+        "webp": "/assets/optimized/static/home-residential-640.50b6978d06c3.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-residential-750.b4671a02dbf3.avif",
+        "webp": "/assets/optimized/static/home-residential-750.50315e48f48e.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-residential-828.5add3834735e.avif",
+        "webp": "/assets/optimized/static/home-residential-828.ae4367a37243.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-residential-960.c8004cac362a.avif",
+        "webp": "/assets/optimized/static/home-residential-960.bca42a080c22.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-residential-1200.11492397f5ee.avif",
+        "webp": "/assets/optimized/static/home-residential-1200.eac5c19fc6eb.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-commercial.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-commercial-320.d53c41136157.avif",
+        "webp": "/assets/optimized/static/home-commercial-320.7b2610f33ac6.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-commercial-480.cb3be7473aee.avif",
+        "webp": "/assets/optimized/static/home-commercial-480.4ddc5c6dbf90.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-commercial-640.114c62cc80ad.avif",
+        "webp": "/assets/optimized/static/home-commercial-640.5c094b4f4339.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-commercial-750.08c6be77829d.avif",
+        "webp": "/assets/optimized/static/home-commercial-750.cc736663005e.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-commercial-828.cebbda4fbc56.avif",
+        "webp": "/assets/optimized/static/home-commercial-828.34b95c9bac0c.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-commercial-960.b13482b87148.avif",
+        "webp": "/assets/optimized/static/home-commercial-960.4035613e6297.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-commercial-1200.a19fc2bd4556.avif",
+        "webp": "/assets/optimized/static/home-commercial-1200.26c76488d1f1.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-agricultural.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-agricultural-320.0e9a643d45b1.avif",
+        "webp": "/assets/optimized/static/home-agricultural-320.323420116d8b.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-agricultural-480.4a4d1f8579e1.avif",
+        "webp": "/assets/optimized/static/home-agricultural-480.949551d78671.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-agricultural-640.5222e4f560d0.avif",
+        "webp": "/assets/optimized/static/home-agricultural-640.0fbd3dd9283c.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-agricultural-750.76dd24bf21a3.avif",
+        "webp": "/assets/optimized/static/home-agricultural-750.6483d12a624b.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-agricultural-828.8d5969a2360f.avif",
+        "webp": "/assets/optimized/static/home-agricultural-828.168d9ffa92a8.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-agricultural-960.fc3d789c9eba.avif",
+        "webp": "/assets/optimized/static/home-agricultural-960.f4b00a73da01.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-agricultural-1200.00d38d016927.avif",
+        "webp": "/assets/optimized/static/home-agricultural-1200.b29a27f99d23.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-industrial.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-industrial-320.0078523b0018.avif",
+        "webp": "/assets/optimized/static/home-industrial-320.14a0045afa99.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-industrial-480.a9eb52c9bf09.avif",
+        "webp": "/assets/optimized/static/home-industrial-480.0eaac34e7c9e.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-industrial-640.4087cdbc106a.avif",
+        "webp": "/assets/optimized/static/home-industrial-640.f9b55f3b4813.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-industrial-750.a3ac58da71ae.avif",
+        "webp": "/assets/optimized/static/home-industrial-750.cdb410f3711f.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-industrial-828.80670a0f1efd.avif",
+        "webp": "/assets/optimized/static/home-industrial-828.aa81cfcfdfe4.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-industrial-960.f20b43415bea.avif",
+        "webp": "/assets/optimized/static/home-industrial-960.05aec7c642bf.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-industrial-1200.e2b1648f9ed6.avif",
+        "webp": "/assets/optimized/static/home-industrial-1200.c57f104ca19e.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-multijet.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-multijet-320.eb8a1f265548.avif",
+        "webp": "/assets/optimized/static/home-multijet-320.cae98cf34d71.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-multijet-480.0829af6ff095.avif",
+        "webp": "/assets/optimized/static/home-multijet-480.4c5a19856fcb.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-multijet-640.353ce013506c.avif",
+        "webp": "/assets/optimized/static/home-multijet-640.5d9115a5f998.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-multijet-750.4c697e7cba04.avif",
+        "webp": "/assets/optimized/static/home-multijet-750.4a1f21070fc7.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-multijet-828.ef47a2554163.avif",
+        "webp": "/assets/optimized/static/home-multijet-828.2d2df52bf6b9.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-multijet-960.70e98448d7f9.avif",
+        "webp": "/assets/optimized/static/home-multijet-960.5f0cd8745ac8.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-multijet-1200.59846497e57f.avif",
+        "webp": "/assets/optimized/static/home-multijet-1200.0efc7839ba9e.webp"
+      }
+    ]
+  },
+  "/assets/optimized/meter-installed.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/meter-installed-320.8df8ae77eab9.avif",
+        "webp": "/assets/optimized/static/meter-installed-320.759b77dada8b.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/meter-installed-480.798d79fc41af.avif",
+        "webp": "/assets/optimized/static/meter-installed-480.6cb6870beea0.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/meter-installed-640.32ff6e53dfa9.avif",
+        "webp": "/assets/optimized/static/meter-installed-640.4574f02cf599.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/meter-installed-750.444da1765384.avif",
+        "webp": "/assets/optimized/static/meter-installed-750.4bea74a29fcd.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/meter-installed-828.86af2076ce7a.avif",
+        "webp": "/assets/optimized/static/meter-installed-828.b61ea7c4a98a.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/meter-installed-960.f8884078eca1.avif",
+        "webp": "/assets/optimized/static/meter-installed-960.06fd92d7286b.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/meter-installed-1200.1f6f9bce98b3.avif",
+        "webp": "/assets/optimized/static/meter-installed-1200.0376dec17832.webp"
+      }
+    ]
+  },
+  "/assets/optimized/single-jet.webp": {
+    "width": 677,
+    "height": 462,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/single-jet-320.56a14e93b6ae.avif",
+        "webp": "/assets/optimized/static/single-jet-320.5637b033b754.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/single-jet-480.0106cfc6eb70.avif",
+        "webp": "/assets/optimized/static/single-jet-480.6d9cfdd1b6c2.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/single-jet-640.894c688def91.avif",
+        "webp": "/assets/optimized/static/single-jet-640.7a3ac0331fb6.webp"
+      },
+      {
+        "width": 677,
+        "avif": "/assets/optimized/static/single-jet-677.ac5035b7bdeb.avif",
+        "webp": "/assets/optimized/static/single-jet-677.c65a14c2c98d.webp"
+      }
+    ]
+  },
+  "/assets/optimized/multi-jet.webp": {
+    "width": 785,
+    "height": 856,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/multi-jet-320.e786211bf935.avif",
+        "webp": "/assets/optimized/static/multi-jet-320.ce3601070c87.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/multi-jet-480.04b7d9d91144.avif",
+        "webp": "/assets/optimized/static/multi-jet-480.d9bdc8196c91.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/multi-jet-640.81f9938fdf4c.avif",
+        "webp": "/assets/optimized/static/multi-jet-640.5cdd5c5b0151.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/multi-jet-750.cbc6772b718d.avif",
+        "webp": "/assets/optimized/static/multi-jet-750.ae406fd126cb.webp"
+      },
+      {
+        "width": 785,
+        "avif": "/assets/optimized/static/multi-jet-785.7fd1d06da919.avif",
+        "webp": "/assets/optimized/static/multi-jet-785.3c0ac43b780e.webp"
+      }
+    ]
+  },
+  "/assets/optimized/woltman.webp": {
+    "width": 800,
+    "height": 640,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/woltman-320.d3691b6fddcb.avif",
+        "webp": "/assets/optimized/static/woltman-320.ca5a597eb0a0.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/woltman-480.a576795f608c.avif",
+        "webp": "/assets/optimized/static/woltman-480.a945ad3b01c1.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/woltman-640.8f040ce82ad6.avif",
+        "webp": "/assets/optimized/static/woltman-640.fd85a519782a.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/woltman-750.27c3314ab195.avif",
+        "webp": "/assets/optimized/static/woltman-750.a2c72b762f53.webp"
+      },
+      {
+        "width": 800,
+        "avif": "/assets/optimized/static/woltman-800.589b0cdb1df2.avif",
+        "webp": "/assets/optimized/static/woltman-800.7b847e461cff.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-hero-blue.webp": {
+    "width": 2172,
+    "height": 724,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-hero-blue-320.fc82c7272982.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-320.e9c0363f3979.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-hero-blue-480.c9e0528ee8a5.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-480.90e55ff2ee63.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-hero-blue-640.15f922e65857.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-640.40b6bf34391a.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-hero-blue-750.87cc4bfdf2b5.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-750.d0d087367bba.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-hero-blue-828.adc1eeab340f.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-828.35586424170f.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-hero-blue-960.2a2325319011.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-960.76f6d90f8c51.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-hero-blue-1200.dc1418d1d277.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-1200.5e0537ef6d9d.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/assets/optimized/static/home-hero-blue-1440.01ffc65887fe.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-1440.553d82f110d6.webp"
+      },
+      {
+        "width": 1920,
+        "avif": "/assets/optimized/static/home-hero-blue-1920.d71f3318f99d.avif",
+        "webp": "/assets/optimized/static/home-hero-blue-1920.b4135c48cb52.webp"
+      }
+    ]
+  },
+  "/assets/optimized/home-hero-brass.webp": {
+    "width": 2199,
+    "height": 715,
+    "variants": [
+      {
+        "width": 320,
+        "avif": "/assets/optimized/static/home-hero-brass-320.443aeba68183.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-320.7ccaf42b9cea.webp"
+      },
+      {
+        "width": 480,
+        "avif": "/assets/optimized/static/home-hero-brass-480.8efe7798b456.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-480.bffb8cb011e8.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/assets/optimized/static/home-hero-brass-640.cf153e79c1db.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-640.7f17f74b3d6e.webp"
+      },
+      {
+        "width": 750,
+        "avif": "/assets/optimized/static/home-hero-brass-750.d644b65cb810.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-750.94076919247f.webp"
+      },
+      {
+        "width": 828,
+        "avif": "/assets/optimized/static/home-hero-brass-828.bd39a77115a5.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-828.43a1a5e5a850.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/assets/optimized/static/home-hero-brass-960.2bb6c56d2dbc.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-960.ee5f373dc530.webp"
+      },
+      {
+        "width": 1200,
+        "avif": "/assets/optimized/static/home-hero-brass-1200.1345da9b01dc.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-1200.f4e83b9bcd3d.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/assets/optimized/static/home-hero-brass-1440.279d3de4ce42.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-1440.ab1dbf80c59c.webp"
+      },
+      {
+        "width": 1920,
+        "avif": "/assets/optimized/static/home-hero-brass-1920.e0ed676982fe.avif",
+        "webp": "/assets/optimized/static/home-hero-brass-1920.0b159c25bdb1.webp"
+      }
+    ]
+  }
+}

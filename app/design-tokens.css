@@ -1,0 +1,48 @@
+/* One scale for Home and every inner page. Desktop values follow the 1440px home composition. */
+:root {
+  --site-display: calc(82 * var(--home-scale));
+  --site-section-title: clamp(28px, calc(40 * var(--home-scale)), 45px);
+  --site-card-title: clamp(18px, calc(20 * var(--home-scale)), 23px);
+  --site-body: clamp(16px, calc(18 * var(--home-scale)), 20px);
+  --site-body-small: clamp(14px, calc(15 * var(--home-scale)), 17px);
+  --site-aside: clamp(14px, calc(16 * var(--home-scale)), 18px);
+  --site-ui: clamp(14px, calc(14 * var(--home-scale)), 16px);
+  --site-meta: clamp(11px, calc(12 * var(--home-scale)), 14px);
+  --site-eyebrow: clamp(11px, calc(12 * var(--home-scale)), 14px);
+  --site-display-leading: .99;
+  --site-title-leading: 1.12;
+  --site-body-leading: 1.65;
+  --site-gutter: max(16px, 5%);
+  --site-content-width: calc(100% - 2 * var(--site-gutter));
+  --site-content-max: 1440px;
+  --site-hero-top: calc(52 * var(--home-scale));
+  --site-hero-bottom: calc(30 * var(--home-scale));
+  --site-section-gap: calc(145 * var(--home-scale));
+  --site-heading-gap: calc(56 * var(--home-scale));
+  --site-grid-gap: calc(36 * var(--home-scale));
+  --site-card-padding: calc(32 * var(--home-scale));
+  --site-cta-gap: calc(112 * var(--home-scale));
+}
+
+@media (max-width: 700px) {
+  :root {
+    --site-display: clamp(39px, 8.8vw, 61px);
+    --site-section-title: clamp(28px, 6.8vw, 38px);
+    --site-card-title: 19px;
+    --site-body: 14px;
+    --site-body-small: 14px;
+    --site-aside: 13px;
+    --site-ui: 13px;
+    --site-meta: 11px;
+    --site-eyebrow: 10px;
+    --site-display-leading: 1.03;
+    --site-title-leading: 1.15;
+    --site-hero-top: 38px;
+    --site-hero-bottom: 25px;
+    --site-section-gap: 72px;
+    --site-heading-gap: 28px;
+    --site-grid-gap: 22px;
+    --site-card-padding: 24px;
+    --site-cta-gap: 65px;
+  }
+}
