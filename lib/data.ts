@@ -95,7 +95,7 @@ export const applications = [
 
 export const contact = {
   address: "Shop No. 4, Ground Floor, Soor II, Latibazar, Navyug Colony, Bhulabhai Park, Ahmedabad-380022, Gujarat",
-  email: "support@sinkronmeters.com",
+  email: "Support@sinkronmeters.com",
   website: "www.sinkronmeters.com",
-  phones: ["+91 88499 72480", "+91 99091 57434"]
+  phones: ["+91 93277 03738"]
 };
