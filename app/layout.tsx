@@ -24,7 +24,7 @@ const manrope = localFont({
   variable: "--font-manrope",
   weight: "500 800",
   display: "swap",
-  preload: false,
+  preload: true,
 });
 
 export const metadata: Metadata = {

@@ -4,8 +4,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid #078f98; outline-offs
 .site-header { background: #fff; backdrop-filter: none; border-bottom: 1px solid #f3f5f7; }
 .header-inner { min-height: calc(90 * var(--home-scale)); gap: calc(50 * var(--home-scale)); }
 .logo-wrap { width: auto; flex-shrink: 0; }
-.brand { display: inline-flex; align-items: center; width: clamp(218px, calc(232 * var(--home-scale)), 256px); max-width: 100%; vertical-align: middle; }
-.brand .brand-image { display: block; width: 100%; height: auto; }
+/* Keep the supplied icon and live lettering in the original logo's proportions. */
+.brand { --brand-unit: clamp(.66px, calc(.8 * var(--home-scale)), .9px); --brand-ink: #373435; --brand-accent: #7bcbbe; display: inline-flex; align-items: center; gap: calc(19 * var(--brand-unit)); width: max-content; max-width: 100%; vertical-align: middle; white-space: nowrap; }
+.brand .brand-symbol { display: block; flex: none; width: calc(91 * var(--brand-unit)); height: calc(91 * var(--brand-unit)); }
+.brand-wordmark { display: flex; flex-direction: column; gap: var(--brand-unit); font-family: var(--font-manrope), Arial, sans-serif; }
+.brand-wordmark strong { color: var(--brand-ink); font-size: calc(51.3 * var(--brand-unit)); font-weight: 800; line-height: 1; letter-spacing: calc(.28 * var(--brand-unit)); }
+.brand-wordmark > span { color: var(--brand-accent); font-size: calc(27.03 * var(--brand-unit)); font-weight: 800; line-height: 1; letter-spacing: calc(4.63 * var(--brand-unit)); margin-inline-end: calc(-4.63 * var(--brand-unit)); }
+.brand-inverse { --brand-ink: #fff; }
 .desktop-nav { gap: calc(40 * var(--home-scale)); }
 .desktop-nav a { font-size: calc(17 * var(--home-scale)); font-weight: 400; color: #4f5e73; padding: calc(32 * var(--home-scale)) 0; }
 .desktop-nav a.active::after { bottom: calc(24 * var(--home-scale)); height: 2px; }
@@ -114,7 +119,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #078f98; outline-offs
 .home-cta .cta-text-link { font-size: calc(18 * var(--u)); color: #d3f0f2; }
 .footer { --u: var(--home-scale); margin-top: calc(100 * var(--u)); padding-top: calc(76 * var(--u)); background: #0b1622; color: #8e9baa; }
 .footer-grid { grid-template-columns: minmax(0, 1fr) calc(180 * var(--u)) calc(315 * var(--u)); gap: calc(50 * var(--u)); min-height: calc(268 * var(--u)); padding-bottom: calc(50 * var(--u)); }
-.footer .brand { width: 232px; }
+.footer .brand { --brand-unit: .68px; }
 .footer-brand p { max-width: none; font-size: calc(14 * var(--u)); line-height: 1.6; margin: calc(18 * var(--u)) 0 0; color: #8e9baa; }
 .footer h3 { font: 500 calc(15 * var(--u))/1.4 var(--font-inter), Arial, sans-serif; margin: 0 0 calc(18 * var(--u)); }
 .footer-links { gap: calc(10 * var(--u)); }
@@ -142,7 +147,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #078f98; outline-offs
 @media (max-width: 700px) {
   :root { --home-scale: 1px; }
   .header-inner { min-height: 76px; gap: 16px; }
-  .brand, .footer .brand { width: 198px; }
+  .footer .brand { --brand-unit: .6px; }
   .desktop-nav, .header-quote.btn { display: none; }
   .menu-button { display: inline-flex; width: 42px; height: 42px; }
   .mobile-nav { position: absolute; top: 100%; display: flex; max-height: calc(100dvh - 92px); overflow-y: auto; overscroll-behavior: contain; }
