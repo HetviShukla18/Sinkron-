@@ -51,7 +51,7 @@ export default function ApplicationsPage() {
         <div><div className="eyebrow">A CLEARER START</div><h2 id="guide-title" className="interior-title">A few details.<br />A better discussion.</h2><p>Bring these essentials to your next conversation with our team. We’ll help you explore the catalogue options.</p><Link href="/contact" className="text-link">Discuss your installation <ArrowRight size={16} aria-hidden="true" /></Link></div>
         <div className="guide-grid">{guide.map(item => <div className="guide-item" key={item.title}><item.icon aria-hidden="true" /><h3>{item.title}</h3><p>{item.body}</p></div>)}</div>
       </section>
-      <PageCTA title="Tell us where your water flows." body="Let’s explore a metering solution around the needs of your application." label="Start a conversation" />
+      <PageCTA />
     </div>
   );
 }

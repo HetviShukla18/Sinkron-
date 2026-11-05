@@ -53,7 +53,7 @@ export default function AboutPage() {
           <article className="purpose-card"><div className="purpose-card-top"><span>02 / OUR VISION</span><Leaf aria-hidden="true" /></div><h3>Conservation as<br />an everyday practice.</h3><p>A future where managing water thoughtfully is part of everyday life, supported by better infrastructure, shared knowledge and long-term care.</p></article>
         </div>
       </section>
-      <PageCTA title="Better water management begins with a conversation." body="Explore our range or speak with our team about your next project." />
+      <PageCTA />
     </div>
   );
 }

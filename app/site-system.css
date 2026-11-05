@@ -19,8 +19,9 @@
 .inner-page .interior-intro-aside { padding: calc(8 * var(--home-scale)) 0 calc(12 * var(--home-scale)) calc(36 * var(--home-scale)); margin-top: calc(8 * var(--home-scale)); }
 .hero-aside p, .inner-page .interior-intro-aside > p { font-size: var(--site-aside); line-height: 1.45; }
 :is(.home-page, .inner-page) .eyebrow { font-size: var(--site-eyebrow); line-height: 1.2; font-weight: 600; letter-spacing: .24em; margin-bottom: calc(14 * var(--home-scale)); }
-.home-page .section-title, .inner-page :is(.interior-title, .interior-section-heading h2, .company-statement h2, .purpose-card h3, .meter-detail-copy h2, .application-overview-image h2, .project-form-panel h2, .contact-help h2, .interior-cta h2) { font-size: var(--site-section-title); line-height: var(--site-title-leading); font-weight: 700; letter-spacing: -.04em; }
-.home-page .about-copy > p, .home-page .section-subtitle, .home-page .cta-panel p,
+.home-page .section-title, .inner-page :is(.interior-title, .interior-section-heading h2, .company-statement h2, .meter-detail-copy h2, .application-overview-image h2, .project-form-panel h2, .contact-help h2, .interior-cta h2) { font-size: var(--site-section-title); line-height: var(--site-title-leading); font-weight: 700; letter-spacing: -.04em; }
+.inner-page .purpose-card h3 { font-size: clamp(22px, calc(28 * var(--home-scale)), 30px); line-height: 1.25; font-weight: 600; letter-spacing: -.03em; margin-bottom: 16px; }
+.home-page .about-copy > p, .home-page .section-subtitle, .home-cta .cta-panel p,
 .inner-page :is(.company-statement p, .company-approach-copy, .approach-steps p, .purpose-card p, .interior-section-heading > p, .meter-detail-copy > p, .sector-body > p, .installation-guide > div > p, .contact-help > p, .interior-cta p) { font-size: var(--site-body); line-height: var(--site-body-leading); }
 .home-page .product-card h3, .inner-page :is(.catalog-card h2, .sector-title h3, .contact-channel h2, .approach-steps h3, .location-body h3) { font-size: var(--site-card-title); line-height: 1.2; font-weight: 600; letter-spacing: -.03em; }
 .home-page .testimonial-card p, .inner-page :is(.meter-features li, .contact-requirements li, .contact-channel p, .location-body address, .guide-item p, .catalog-short, .project-form-panel > p, .selected-enquiry) { font-size: var(--site-body-small); line-height: 1.75; }
@@ -37,7 +38,7 @@
 .inner-page .company-facts strong { font-size: calc(23 * var(--home-scale)); }
 .inner-page .company-facts > div { min-width: 0; }
 .inner-page .company-facts strong { white-space: normal; overflow-wrap: anywhere; }
-.inner-page .interior-cta, .home-page .home-cta { margin-top: var(--site-cta-gap); }
+.inner-page .interior-cta { margin-top: var(--site-cta-gap); }
 .inner-page .interior-cta { padding: calc(54 * var(--home-scale)); gap: calc(50 * var(--home-scale)); }
 .inner-page .interior-cta h2 { font-weight: 600; line-height: 1.15; }
 .inner-page .interior-cta p { line-height: 1.45; }
@@ -139,7 +140,8 @@
   .inner-page .sector-title h3 { font-size: var(--site-card-title); }
   .inner-page .sector-body > p { min-height: 0; }
   .inner-page .interior-cta { padding: 34px 26px; gap: 28px; }
-  .inner-page .interior-cta h2, .home-page .cta-panel h2 { font-size: 29px; line-height: 1.2; }
+  .inner-page .interior-cta h2, .home-cta .cta-panel h2 { font-size: 29px; line-height: 1.2; }
+  .inner-page .purpose-card h3 { font-size: 24px; }
   .inner-page .interior-cta p { font-size: var(--site-body); }
   .inner-page .project-contact-grid { margin-top: 55px; }
   .inner-page .contact-channel { flex-direction: row; align-items: center; padding: 22px; }

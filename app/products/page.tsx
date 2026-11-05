@@ -26,7 +26,7 @@ export default function ProductsPage() {
           </article>
         ))}
       </section>
-      <PageCTA title="Not sure which meter fits? Let’s work through it." body="Share your application, connection size and flow requirements with our team." label="Get product guidance" />
+      <PageCTA />
     </div>
   );
 }

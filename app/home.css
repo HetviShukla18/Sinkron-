@@ -106,15 +106,15 @@ a:focus-visible, button:focus-visible { outline: 2px solid #078f98; outline-offs
 :is(.home-page, .about-page) .testimonial-card hr { border-color: #e9edf2; margin: calc(25 * var(--u)) 0 calc(28 * var(--u)); }
 :is(.home-page, .about-page) .testimonial-card strong { color: #324155; font-size: calc(14 * var(--u)); margin-bottom: calc(5 * var(--u)); font-weight: 600; }
 :is(.home-page, .about-page) .testimonial-card > span { color: #8b99a4; font-size: calc(12 * var(--u)); line-height: 1.3; }
-.home-cta { margin-top: calc(112 * var(--u)); }
-:is(.home-page, .about-page) .cta-panel { min-height: calc(250 * var(--u)); padding: calc(54 * var(--u)); border-radius: calc(26 * var(--u)); background: linear-gradient(108deg, #0c3c4e, #007285); box-shadow: 0 calc(16 * var(--u)) calc(20 * var(--u)) #1027391c; gap: calc(50 * var(--u)); }
-:is(.home-page, .about-page) .cta-panel .eyebrow { color: #8bcacc; font-size: calc(10 * var(--u)); letter-spacing: .26em; margin-bottom: calc(15 * var(--u)); }
-:is(.home-page, .about-page) .cta-panel h2 { font: 600 calc(40 * var(--u))/1.15 var(--font-inter), Arial, sans-serif; letter-spacing: -.035em; margin-bottom: calc(14 * var(--u)); }
-:is(.home-page, .about-page) .cta-panel p { font-size: calc(18 * var(--u)); line-height: 1.45; max-width: calc(760 * var(--u)); color: #b1d6de; }
-:is(.home-page, .about-page) .cta-actions { flex-shrink: 0; gap: calc(20 * var(--u)); }
-:is(.home-page, .about-page) .cta-actions .btn-white { min-height: calc(50 * var(--u)); padding-inline: calc(34 * var(--u)); font-size: calc(24 * var(--u)); font-weight: 600; }
+.home-cta { --u: var(--home-scale); margin-top: var(--site-cta-gap); }
+.home-cta .cta-panel { min-height: calc(250 * var(--u)); padding: clamp(28px, calc(54 * var(--u)), 60px); border-radius: calc(26 * var(--u)); background: linear-gradient(108deg, #0c3c4e, #007285); box-shadow: 0 calc(16 * var(--u)) calc(20 * var(--u)) #1027391c; gap: max(28px, calc(50 * var(--u))); }
+.home-cta .cta-panel .eyebrow { color: #8bcacc; font-family: var(--font-manrope), Arial, sans-serif; font-size: max(10px, calc(10 * var(--u))); letter-spacing: .26em; margin-bottom: calc(15 * var(--u)); }
+.home-cta .cta-panel h2 { font: 600 clamp(28px, calc(40 * var(--u)), 45px)/1.15 var(--font-inter), Arial, sans-serif; letter-spacing: -.035em; margin-bottom: calc(14 * var(--u)); }
+.home-cta .cta-panel p { font-size: calc(18 * var(--u)); line-height: 1.45; max-width: calc(760 * var(--u)); color: #b1d6de; }
+.home-cta .cta-actions { flex-shrink: 0; gap: calc(20 * var(--u)); }
+.home-cta .cta-actions .btn-white { min-height: calc(50 * var(--u)); padding-inline: calc(34 * var(--u)); font-size: calc(24 * var(--u)); font-weight: 600; }
 .cta-text-link { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-:is(.home-page, .about-page) .cta-text-link { font-size: calc(18 * var(--u)); color: #d3f0f2; }
+.home-cta .cta-text-link { font-size: calc(18 * var(--u)); color: #d3f0f2; }
 .footer { --u: var(--home-scale); margin-top: calc(100 * var(--u)); padding-top: calc(76 * var(--u)); background: #0b1622; color: #8e9baa; }
 .footer-grid { grid-template-columns: minmax(0, 1fr) calc(180 * var(--u)) calc(315 * var(--u)); gap: calc(50 * var(--u)); min-height: calc(268 * var(--u)); padding-bottom: calc(50 * var(--u)); }
 .footer .brand-wordmark strong { color: #e7e9eb; }
@@ -139,8 +139,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid #078f98; outline-offs
   :is(.home-page, .about-page) .home-hero-copy { grid-template-columns: minmax(0, 1fr) calc(296 * var(--u)); }
   :is(.home-page, .about-page) .home-about-grid { grid-template-columns: .89fr 1.11fr; }
   :is(.home-page, .about-page) .split-feature { grid-template-columns: 1.02fr .98fr; }
-  :is(.home-page, .about-page) .cta-panel { flex-direction: row; align-items: center; }
-  :is(.home-page, .about-page) .cta-actions { align-items: center; }
+  .home-cta .cta-panel { flex-direction: row; align-items: center; }
+  .home-cta .cta-actions { align-items: center; }
 }
 
 @media (max-width: 700px) {
@@ -215,13 +215,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid #078f98; outline-offs
   :is(.home-page, .about-page) .testimonial-card p { font-size: 14px; min-height: auto; }
   :is(.home-page, .about-page) .testimonial-card hr { margin: 22px 0; }
   .home-cta { margin-top: 65px; }
-  :is(.home-page, .about-page) .cta-panel { padding: 34px 26px; min-height: 0; gap: 28px; border-radius: 20px; align-items: flex-start; }
-  :is(.home-page, .about-page) .cta-panel .eyebrow { font-size: 9px; }
-  :is(.home-page, .about-page) .cta-panel h2 { font-size: 29px; line-height: 1.2; }
-  :is(.home-page, .about-page) .cta-panel p { font-size: 14px; }
-  :is(.home-page, .about-page) .cta-actions { align-items: flex-start; gap: 18px; }
-  :is(.home-page, .about-page) .cta-actions .btn-white { font-size: 18px; min-height: 44px; padding-inline: 26px; }
-  :is(.home-page, .about-page) .cta-text-link { font-size: 14px; }
+  .home-cta .cta-panel { padding: 34px 26px; min-height: 0; gap: 28px; border-radius: 20px; align-items: flex-start; }
+  .home-cta .cta-panel .eyebrow { font-size: 10px; }
+  .home-cta .cta-panel h2 { font-size: 29px; line-height: 1.2; }
+  .home-cta .cta-panel p { font-size: 14px; }
+  .home-cta .cta-actions { align-items: flex-start; gap: 18px; }
+  .home-cta .cta-actions .btn-white { font-size: 18px; min-height: 44px; padding-inline: 26px; }
+  .home-cta .cta-text-link { font-size: 14px; }
   .footer { margin-top: 65px; padding-top: 45px; }
   .footer-grid { grid-template-columns: 1fr 1.6fr; gap: 36px 20px; padding-bottom: 40px; }
   .footer-brand { grid-column: 1 / -1; }
