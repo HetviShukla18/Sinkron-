@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="footer">
       <div className="site-container footer-grid">
         <div className="footer-brand">
-          <Link href="/" aria-label="Sinkron Water Meters home"><Brand /></Link>
+          <Link href="/" aria-label="Sinkron Water Meters home"><Brand inverse /></Link>
           <p>Measuring Water for a Sustainable Tomorrow.</p>
         </div>
         <div>

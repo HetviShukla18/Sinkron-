@@ -283,7 +283,6 @@ a[href^="https://wa.me/"]:focus-visible {
 /* Footer */
 .footer { margin-top: 90px; background: #071527; color: #d6dde3; padding-top: 62px; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr .7fr 1fr 1.15fr; gap: 58px; padding-bottom: 54px; }
-.footer-brand img { filter: brightness(0) invert(1); opacity: .95; }
 .footer-brand p { max-width: 250px; color: #8c9aa8; line-height: 1.6; font-size: 12px; }
 .footer h3 { color: #fff; font: 700 13px var(--font-manrope),Arial,sans-serif; margin: 3px 0 16px; }
 .footer-links { display: flex; flex-direction: column; gap: 8px; }

@@ -111,10 +111,7 @@
   .header-inner { min-height: 76px; }
   .header-inner .desktop-nav, .header-inner .header-quote { display: none; }
   .header-inner .menu-button { display: inline-flex; width: 44px; height: 44px; }
-  .header-inner .brand-symbol { width: 45px; height: 45px; }
-  .header-inner .brand-wordmark strong { font-size: 26px; }
-  .header-inner .brand-wordmark > span { font-size: 10px; }
-  .header-inner .brand { gap: 7px; }
+  .header-inner .brand { width: 198px; }
   .mobile-nav { display: flex; position: absolute; top: 100%; left: 0; right: 0; width: var(--site-content-width); max-width: var(--site-content-max); margin-inline: auto; flex-direction: column; gap: 5px; background: #fff; border: 1px solid #dfe7e7; border-radius: 16px; padding: 16px; box-shadow: 0 18px 50px #07152a1f; max-height: calc(100dvh - 92px); overflow-y: auto; overscroll-behavior: contain; }
   .mobile-nav a:not(.btn) { display: flex; align-items: center; min-height: 44px; padding: 12px 10px; border-radius: 10px; font-weight: 500; font-size: 15px; }
   .mobile-nav a[aria-current=page] { background: #eef8f7; color: #087f84; }
@@ -158,7 +155,6 @@
 
 /* Readable text and controls on both white and tinted surfaces. */
 :root { --site-muted-text: #586d7b; --site-teal-text: #076b75; --site-action: #08777f; }
-.site-header .brand-wordmark > span { color: #16747d; }
 .desktop-nav a.active { color: var(--site-teal-text); }
 .site-header .mobile-nav a[aria-current=page] { color: var(--site-teal-text); }
 .desktop-nav a.active::after { background: var(--site-teal-text); }
